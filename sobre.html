@@ -24,6 +24,23 @@
         h1 { color: #007BFF; border-bottom: 2px solid #007BFF; padding-bottom: 10px; }
         h2 { color: #555; margin-top: 25px; }
         p { margin: 15px 0; text-align: justify; }
+        
+        /* Estilo para o Menu de Navegação */
+        nav {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
         .missao-visao-valores {
             display: flex;
             justify-content: space-between;
@@ -43,6 +60,12 @@
 <body>
 
     <div class="container">
+        <nav>
+            <a href="../index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
         <h1>Sobre Nós</h1>
         
         <p>Bem-vindo ao nosso projeto! Nossa jornada começou com o objetivo de transformar ideias em realidade digital. Acreditamos que a tecnologia deve ser acessível e funcional para todos.</p>
@@ -63,12 +86,7 @@
                 <h3>Valores</h3>
                 <p>Ética, transparência e paixão pelo que fazemos.</p>
             </div>
-        </div>
-
-        <p style="margin-top: 40px; text-align: center;">
-            <a href="contato.html" style="color: #007BFF; text-decoration: none; font-weight: bold;">← Voltar para Contato</a>
-        </p>
-    </div>
+        
 
 </body>
 </html>
