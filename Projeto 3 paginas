@@ -1,0 +1,50 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Apresentação</title>
+    <style>
+        body {
+            /* Definindo a fonte como 18px conforme solicitado */
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Olá, bem-vindo(a)!</h1>
+        <p>
+            Este é o meu projeto inicial criado no <strong>Sublime Text</strong>. 
+            Estou utilizando este espaço para me apresentar e demonstrar como configurar 
+            o tamanho da fonte e o estilo básico de uma página web.
+        </p>
+        <p>
+            O desenvolvimento web abre portas incríveis, e este arquivo HTML é o 
+            primeiro passo de muitos outros que virão.
+        </p>
+    </div>
+
+</body>
+</html>
